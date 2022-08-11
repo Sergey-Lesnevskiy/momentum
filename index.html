@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="assets/favicon.ico" rel="shortcut icon" />
+  <link rel="stylesheet" href="css/owfont-regular.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>momentum</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="player">
+      <div class="player-controls">
+        <button class="play-prev player-icon"></button>
+        <button class="play player-icon"></button>
+        <button class="play-next player-icon"></button>
+      </div>
+      <ul class="play-list"></ul>
+    </div>
+    <div class="btn_setting_open">
+    
+    <div class="setting">
+      <div class="lang">
+        <button class="ru btn_setting">ru</button>
+        <button class="en btn_setting active">en</button>
+      </div>
+      <button class="music_setting btn_setting active">music</button>
+      <button class="date_setting btn_setting active">date</button>
+      <button class="time_setting btn_setting active">time</button>
+      <button class="weather_setting btn_setting active">wether</button>
+      <button class="qoute_setting btn_setting active">qout</button>
+    </div>
+    <button class="open_setting btn_setting">setting</button>
+  </div>
+  
+      
+    <div class="weather">
+      <input type="text" class="city" value="Minsk" placeholder="[Enter your sity]"/>
+      <i class="weather-icon owf"></i>
+      <div class="weather-error"></div>
+      <div class="description-container">
+        <span class="temperature"></span>
+        <span class="weather-description"></span>
+        <span class="weather-city"></span>
+    </div>
+    <div class="wind"></div>
+    <div class="humidity"></div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="slider-icons">
+      <button class="slide-prev slider-icon"></button>
+      <button class="slide-next slider-icon"></button>
+    </div>
+    <time class="time"></time>
+    <date class="date"></date>
+    <div class="greeting-container">
+      <span class="greeting"></span>
+      <input type="text" class="name" placeholder="[Enter your name]" />
+    </div>
+  </main>
+  <footer class="footer">
+    <button class="change-quote"></button>
+    <div>
+      <div class="quote"></div>
+      <div class="author"></div>
+    </div>
+  </footer>
+  <script type="module" src="./src/time.js"></script>
+
+</body>
+
+</html>
