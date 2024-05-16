@@ -355,33 +355,41 @@ body {
 
 @media (max-width: 560px) {
   .header {
-  flex-direction: column;
-  height: 100vh;
-  align-items: center;
-  font-size: 22px;
-}
-.main {
-  padding: 0;}
-  .time{
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    font-size: 22px;
+  }
+
+  .main {
+    padding: 0;
+  }
+
+  .time {
     letter-spacing: -1px;
     font-size: 25px;
   }
-  .city,.name {
+
+  .city,
+  .name {
     font-size: 22px;
   }
-  .player-controls{
+
+  .player-controls {
     width: 176px;
   }
 
-  .play-list{
+  .play-list {
     font-size: 25px;
   }
-  .play-item{
-  padding-left: 22px;
 
-}
-.greeting {
-  font-size: 20px;
-  text-align: left;
-}
+  .play-item {
+    padding-left: 22px;
+
+  }
+
+  .greeting {
+    font-size: 20px;
+    text-align: center;
+  }
 }
